@@ -1,0 +1,292 @@
+body {
+    margin: 0px;
+}
+
+h2,
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0px 0px 0px 40px; 
+
+}
+
+ul li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-info ul {
+    justify-content: space-between;
+
+}
+
+.rating ul li {
+
+
+
+}
+
+.skill ul li {
+    margin: 0px;
+}
+
+.skill ul {
+    margin: 0px;
+}
+
+.cv-section {
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    /* height: 100vh; */
+
+}
+
+
+.cv-wraper {
+    
+
+}
+
+.cv-wraper-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.container-wraper::before {
+    content: "";
+    height: 100px;
+    background: rgb(175, 27, 108);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.container-wraper::after {
+    content: "";
+    height: 50px;
+    background: rgb(182, 30, 78);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.cv-wraper-left {
+    background-color: rgb(4, 37, 37);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    margin-bottom: 10px;
+
+}
+
+.profile-img img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+}
+
+.contact-info ul li i {
+    border-radius: 100%;
+    background: rgb(100, 188, 223);
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 11px;
+}
+
+.title {
+    text-align: center;
+    font: size 20px;
+    color: rgb(244, 237, 237);
+    border: 1px solid white;
+    /* margin: 12px; */
+    width: calc(100%);
+}
+
+.text,
+.contact-info {
+    color: white;
+}
+
+i {
+    text-align: center;
+}
+
+.text span {
+    background-color: rgb(23, 139, 139);
+    height: 10px;
+    width: 5px;
+    display: inline-block;
+    padding-left: 5px;
+
+}
+
+.dotted-border ul li .text span {
+    border-radius: 100%;
+    border-style: dashed;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-left: none; 
+}
+.dotted-border span {
+    border-radius: 50%;
+    border-style: dashed;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-left: none;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+
+
+
+/* right wrapper starts from here */
+
+.cv-wraper-right {
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.my-name {
+    margin-top: 10px;
+}
+
+.my-name h2,
+.my-name h4
+{
+margin: 20px 0px;
+padding: 0px;
+}
+
+.content-wrap {}
+
+.content-wrap .content-box {}
+
+.content-wrap .content-box .content-title {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.content-title h2 {
+    margin-bottom: 5px;
+}
+
+.content-wrap .content-box .content-title .icon::before {
+    content: "";
+    background-color: aqua;
+    height: 3px;
+    width: 12px;
+    position: absolute;
+    top: 14px;
+    left: -11px;
+}
+
+.content-item {
+    position: relative;
+}
+
+.content-item::before {
+    content: "";
+    background-color: aqua;
+    height: calc(100% - 8%);
+    width: 3px;
+    position: absolute;
+    top: 13px;
+    left: -12px;
+
+}
+
+.content-wrap .content-box .content-title i {
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+h2 .colorheading {
+    color: aqua;
+    position: relative;
+    display: block;
+
+}
+
+h2 .colorheading::before {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 5px;
+    left: -17px;
+}
+
+.content-item {
+    margin-top: 34px;
+}
+
+.content-item .sub-ttile {
+    margin-top: 10px;
+}
+
+
+.content-wrap .content-box .content-text {
+    margin: 0px;
+}
+
+.content-wrap .content-box .content-text p {
+    text-align: justify;
+    margin: 0px;
+
+}
+
+.contact-details h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 span {
+    color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
